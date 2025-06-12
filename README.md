@@ -1,39 +1,41 @@
-### Prerequisites
+# 🩺 Organ Donation Application (MERN Stack)
 
-- NPM and Node.js installed
-- MongoDB cluster created and added to the system's environment variable
+A modern and user-friendly web application built with the **MERN stack** (MongoDB, Express, React, Node.js) to promote and manage **organ donation** in a transparent, efficient, and secure manner.
 
-### Installing
+## 📝 About the Website
 
-Steps for Installing NPM modules on both client and server folders
+This Organ Donation platform serves as a digital bridge between **organ donors**, **recipients**, and **healthcare institutions**. It aims to streamline the process of **registering as an organ donor**, **searching for organ availability**, and enabling **hospitals to manage and verify donations**.
 
-Execute these commands from the project directory
+Organ donation is a life-saving act, yet many people remain unaware or hesitant due to the lack of a proper system. This platform solves that by providing:
 
-```
-cd client && npm install
-```
+- A centralized space for **donors** to register and manage their profiles.
+- A tool for **recipients** to find matching organ donors quickly based on criteria like blood group, organ type, and location.
+- A secure dashboard for **hospitals/admins** to verify requests and manage the donation process.
 
-```
-cd server && npm install
-```
+By using technology, we aim to:
+- Raise awareness about organ donation,
+- Increase donor participation,
+- Reduce delays in matching organs with patients in need.
 
-### Running the app
+Together, let's make organ donation more accessible and life-saving for everyone. 💖
 
-Open a terminal on server directory
+---
+## 🚀 Tech Stack (MERN)
 
-```
-npm start:dev
-```
+- **MongoDB** – NoSQL database for storing user and donation data
+- **Express.js** – Backend framework for routing and APIs
+- **React.js** – Frontend UI library for a responsive user interface
+- **Node.js** – Runtime environment for server-side logic
 
-and open another terminal on client directory
-```
-npm start
-```
+---
 
+## 📌 Key Features
 
-### Access the web app on your system at http://localhost:3000/
+### ✅ Donor Management
+- Register as a donor with details like blood group, organ type, and contact info
+- View and update donor profile
+- Toggle availability status for donation
 
-<hr>
 
 ### Screenshots
 
